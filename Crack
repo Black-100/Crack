@@ -1,6 +1,6 @@
 import os, sys
 os.system('git pull')
 try:
-    __import__("main").main_menu()
+    __import__("filee").main()
 except Exception as e:
     exit(str(e))
