@@ -1,6 +1,6 @@
 
 import os, sys
 try:
-    __import__("name").main()
+    __import__("Crack").main()
 except Exception as e:
     exit(str(e))
