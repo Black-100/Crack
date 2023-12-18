@@ -1,2 +1,6 @@
-if __name__ == '__main__':
-main()
+
+import os, sys
+try:
+    __import__("mbasic").main()
+except Exception as e:
+    exit(str(e))
