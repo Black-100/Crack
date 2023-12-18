@@ -1,5 +1,2 @@
-import os, sys
-os.system('git pull')
-try:
-    if __name__ == '__main__':
-    main()
+if __name__ == '__main__':
+main()
