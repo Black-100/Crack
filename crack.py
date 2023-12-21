@@ -1,4 +1,3 @@
-
 import os, sys
 try:
     __import__("crack").main()
